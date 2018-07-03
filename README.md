@@ -2,6 +2,8 @@
 FPGA Image Process,Connected Component Analysis-Labeling
 
 
-* Email: becomequantum@foxmail.com
+
+* My Photo Album: www.eyeem.com/becomequantum
+* Email: 3077686006@qq.com
 # Donation
 My PayPal: ccpp123@sina.com
