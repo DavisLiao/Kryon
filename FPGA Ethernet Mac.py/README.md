@@ -1,0 +1,1 @@
+Intend using MyHDL to write a Ethenet Mac module for a dev board.
