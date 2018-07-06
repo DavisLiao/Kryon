@@ -21,3 +21,6 @@ My Photo Album: www.eyeem.com/becomequantum
 Email: 3077686006@qq.com
 # Donation
 My PayPal: ccpp123@sina.com
+
+Wechat:
+![zan](微信赞赏码.png)
