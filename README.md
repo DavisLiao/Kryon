@@ -13,6 +13,8 @@ I have writen two articles about these codes, it's in 中文，but google transl
 
 'CCAL.py' is the source code of the Connected Component Labeling algorithm animation that I made: 
 
+'FPGA Ethernet Mac.py' is a FPGA MAC and a simple GUI written in python use [MyHDL](http://docs.myhdl.org/en/stable/). It can run on ALINX黑金 AX516 Dev Board. PC can receive Raw Video transmited from FPGA through GBE.
+
 * https://youtu.be/UVAxT60HppI
 * [连通域识别算法动画演示](https://www.bilibili.com/video/av26067000)
 
