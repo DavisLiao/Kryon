@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 `define WH1920x1080 3
 `define WH1280x1024 0
-
+//This file is written by hand
 module Top(
   input               sys_clk,
   output			        vga_hs,		   //horizontal sync 
@@ -15,18 +15,18 @@ module Top(
   input               key4,
   
   output              e_reset,
-  //output               e_mdc,                      //MDIOµÄÊ±ÖÓĞÅºÅ£¬ÓÃÓÚ¶ÁĞ´PHYµÄ¼Ä´æÆ÷ 
-  //inout                e_mdio,                     //MDIOµÄÊı¾İĞÅºÅ£¬ÓÃÓÚ¶ÁĞ´PHYµÄ¼Ä´æÆ÷	
+  //output               e_mdc,                      //MDIOçš„æ—¶é’Ÿä¿¡å·ï¼Œç”¨äºè¯»å†™PHYçš„å¯„å­˜å™¨ 
+  //inout                e_mdio,                     //MDIOçš„æ•°æ®ä¿¡å·ï¼Œç”¨äºè¯»å†™PHYçš„å¯„å­˜å™¨	
   input	               e_rxc,                      //125Mhz ethernet gmii rx clock
-	input	               e_rxdv,	                   //GMII ½ÓÊÕÊı¾İÓĞĞ§ĞÅºÅ
-	input	               e_rxer,	                   //GMII ½ÓÊÕÊı¾İ´íÎóĞÅºÅ					
-	input      [7:0]     e_rxd,                      //GMII ½ÓÊÕÊı¾İ	      
+	input	               e_rxdv,	                   //GMII æ¥æ”¶æ•°æ®æœ‰æ•ˆä¿¡å·
+	input	               e_rxer,	                   //GMII æ¥æ”¶æ•°æ®é”™è¯¯ä¿¡å·					
+	input      [7:0]     e_rxd,                      //GMII æ¥æ”¶æ•°æ®	      
 
 	input	               e_txc,                      //25Mhz ethernet mii tx clock         
 	output               e_gtxc,                     //125Mhz ethernet gmii tx clock  
-	output               e_txen,                     //GMII ·¢ËÍÊı¾İÓĞĞ§ĞÅºÅ	
-	output               e_txer,                     //GMII ·¢ËÍÊı¾İ´íÎóĞÅºÅ					
-	output     [7:0]     e_txd	                      //GMII ·¢ËÍÊı¾İ 	
+	output               e_txen,                     //GMII å‘é€æ•°æ®æœ‰æ•ˆä¿¡å·	
+	output               e_txer,                     //GMII å‘é€æ•°æ®é”™è¯¯ä¿¡å·					
+	output     [7:0]     e_txd	                      //GMII å‘é€æ•°æ® 	
   
   
   );
